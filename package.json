@@ -1,0 +1,15 @@
+{
+  "name": "favor-gods-of-oethera",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Online multiplayer web version of the board game Favor: Gods of Oethera",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node test/sim.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": { "node": ">=20" }
+}
